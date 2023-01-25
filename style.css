@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*Parte navegação*/
+
+#conectar ul {
+    list-style-type: none;
+    overflow: hidden;
+    background: black;
+}
+
+#conectar li {
+    float: right;
+    margin-right: 20px;
+}
+
+#conectar li a {
+    display: block;
+    color: #a0e080;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+#conectar li a:hover {
+    color: white;
+}
+
+#navegação ul {
+    list-style-type: none;
+    overflow: hidden;
+    background: rgb(29, 29, 29);
+}
+#navegação li {
+    float: left;
+    margin: 25px 15px;
+}
+
+#navegação li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+#navegação li a:hover{
+    color:#a0e080 ;
+}
+#logo {
+    max-width: 175px;
+    height: 40px;
+}
+#botaonav {
+    float: right;
+    background: green;
+    margin: -10px;
+    width: 240px;
+    height: 50px;
+    border-left: 5px solid rgb(0, 97, 0);
+    border-bottom: 5px solid rgb(0, 75, 0);
+    border-right: 5px solid rgb(1, 139, 1);
+    border-top: 5px solid rgb(1, 173, 1);
+    border-radius: 5px;
+    line-height: 45px;
+    font-size: 1.3em;
+}
+
